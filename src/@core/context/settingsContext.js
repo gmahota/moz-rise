@@ -5,7 +5,7 @@ import { createContext, useState, useEffect } from 'react'
 import themeConfig from 'src/configs/themeConfig'
 
 const initialSettings = {
-  themeColor: 'primary',
+  themeColor: 'dark',
   mode: themeConfig.mode,
   skin: themeConfig.skin,
   footer: themeConfig.footer,

@@ -5,16 +5,16 @@ const navigation = () => [
     icon: 'mdi:home-outline',
   },
   {
-    title: 'Second Page',
-    path: '/second-page',
-    icon: 'mdi:email-outline',
+    title: 'Investors',
+    path: '/investors',
+    icon: 'mdi:money',
   },
   {
     path: '/acl',
     action: 'read',
     subject: 'acl-page',
     title: 'Access Control',
-    icon: 'mdi:shield-outline',
+    icon: 'mdi:briefcase',
   }
 ]
 
